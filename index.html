@@ -1,0 +1,196 @@
+<!doctype html>
+<html lang="en">
+  <head>
+    <meta charset="UTF-8" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+    <title>Portfolio Website</title>
+    <link rel="stylesheet" href="./style.css" />
+    <link
+      rel="stylesheet"
+      href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/7.3.1/css/all.css"
+      integrity="sha512-x9WwyMYBnlXMNQ6kQ/Lyzu1NqIhLQKL5Oq6xByfXuRj7s9CskyCbLv/1IjqzJmXwFXWr0ov6jBV7Qbc0hh9nHg=="
+      crossorigin="anonymous"
+      referrerpolicy="no-referrer"
+    />
+  </head>
+  <body>
+    <header class="header">
+      <a href="#home" class="logo"> Jan <span>Musil</span> </a>
+
+      <i class="fa-solid fa-bars" id="menu-icon"></i>
+
+      <nav class="navbar">
+        <a href="#home" class="active">Home</a>
+        <a href="#about">About</a>
+        <a href="#projects">Projects</a>
+        <a href="#contact">Contact</a>
+      </nav>
+    </header>
+
+    <section class="home" id="home">
+      <div class="home-rectangle"></div>
+
+      <div class="home-content">
+        <h1>Hi, I'm <span>Jan</span></h1>
+        <h3 class="text-animation">I'm a <span></span></h3>
+        <p>
+          I am a Junior Frontend Developer with a unique background in
+          mechanical engineering and B2B marketing. My journey into tech began
+          while managing corporate websites, which inspired me to learn
+          programming independently through intensive online courses and a lot
+          of practice. I bridge the gap between engineering logic and marketing
+          strategy to build clean, user-centric web applications.
+        </p>
+
+        <div class="social-icons">
+          <a href="https://www.linkedin.com/in/jan-musil-3b11b3227/"
+            ><i class="fa-brands fa-linkedin"></i
+          ></a>
+          <a href="https://github.com/musiljan04-ops"
+            ><i class="fa-brands fa-github"></i
+          ></a>
+          <a href="https://www.instagram.com/cyberjohny01/"
+            ><i class="fa-brands fa-instagram"></i
+          ></a>
+        </div>
+
+        <a href="#contact" class="btn">Contact Me</a>
+      </div>
+      <div class="home-img">
+        <img src="./assets/photo.jpeg" alt="photo" />
+      </div>
+    </section>
+
+    <section class="about" id="about">
+      <div class="about-rectangle"></div>
+      <div class="about-img">
+        <img src="./assets/photo.jpeg" alt="photo" />
+      </div>
+
+      <div class="about-content">
+        <h2 class="heading">About <span>Me</span></h2>
+        <p>
+          My path into tech wasn’t a straight one. I studied mechanical
+          engineering and started my career in that field before moving into
+          marketing, where I was also responsible for managing company websites.
+          Along the way, I became increasingly curious about the code behind the
+          pages I was working with. I started teaching myself to code, from
+          using coding apps to taking more advanced online courses, and
+          eventually decided to move into web development. Today, as a Junior
+          Frontend Developer, I combine my technical skills with my marketing
+          background to bring both perspectives to every project.
+        </p>
+        <h3>Skills</h3>
+        <img
+          src="https://skillicons.dev/icons?i=html,css,js,ts,react,nodejs,git"
+          alt="skills icons"
+        />
+      </div>
+    </section>
+
+    <section class="projects" id="projects">
+      <h2 class="heading">Projects</h2>
+
+      <div class="projects-container">
+        <div class="project-box">
+          <div class="project-image">
+            <img
+              src="./assets/Password generator.jpg"
+              alt="password generator"
+            />
+          </div>
+          <h4>Password generator</h4>
+        </div>
+
+        <div class="project-box">
+          <div class="project-image">
+            <img
+              src="./assets/Registration validator.jpg"
+              alt="registration validator"
+            />
+          </div>
+          <h4>Registration validator</h4>
+        </div>
+
+        <div class="project-box">
+          <div class="project-image">
+            <img src="./assets/Expense Tracker.jpg" alt="expense tracker" />
+          </div>
+          <h4>Expense tracker</h4>
+        </div>
+
+        <div class="project-box">
+          <div class="project-image">
+            <img src="./assets/Pricing cards.jpg" alt="pricing cards" />
+          </div>
+          <h4>Pricing cards</h4>
+        </div>
+
+        <div class="project-box">
+          <div class="project-image">
+            <img src="./assets/Meet our team.jpg" alt="meet our team" />
+          </div>
+          <h4>Meet our team</h4>
+        </div>
+
+        <div class="project-box">
+          <div class="project-image">
+            <img src="./assets/Recipe finder.jpg" alt="recipe finder" />
+          </div>
+          <h4>Recipe finder</h4>
+        </div>
+      </div>
+    </section>
+
+    <section class="contact" id="contact">
+      <h2 class="heading">Contact <span>Me</span></h2>
+
+      <form action="#">
+        <div class="input-box">
+          <input type="text" placeholder="Full Name" />
+          <input type="email" placeholder="Email" />
+        </div>
+
+        <div class="input-box">
+          <input type="number" placeholder="Phone Number" />
+          <input type="Text" placeholder="Subject" />
+        </div>
+
+        <textarea
+          name=""
+          id=""
+          cols="30"
+          rows="10"
+          placeholder="Your Message"
+        ></textarea>
+        <input type="submit" value="Send Message" class="btn" />
+      </form>
+    </section>
+
+    <footer class="footer">
+      <div class="social">
+        <a href="#"><i class="fa-brands fa-linkedin"></i></a>
+        <a href="#"><i class="fa-brands fa-github"></i></a>
+        <a href="#"><i class="fa-brands fa-instagram"></i></a>
+      </div>
+
+      <ul class="list">
+        <li>
+          <a href="#home">Home</a>
+        </li>
+        <li>
+          <a href="#about">About</a>
+        </li>
+        <li>
+          <a href="#projects">Projects</a>
+        </li>
+        <li>
+          <a href="#contact">Contact</a>
+        </li>
+      </ul>
+      <p class="copyright">© Jan Musil | All Rights Reserved</p>
+    </footer>
+
+    <script src="./script.js"></script>
+  </body>
+</html>
