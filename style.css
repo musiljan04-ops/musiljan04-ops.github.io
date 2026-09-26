@@ -511,7 +511,7 @@ section {
     margin: 5rem 4rem;
   }
   .home-rectangle {
-    height: 70%;
+    height: 60%;
     width: 50%;
     border-bottom-left-radius: 50%;
   }
@@ -553,7 +553,7 @@ section {
   }
   .projects-container {
     padding-bottom: 7rem;
-    grid-template-columns: repeat(2, 1fr);
+    grid-template-columns: repeat(1, 1fr);
     margin: 0 5rem;
   }
   .projects h2 {
