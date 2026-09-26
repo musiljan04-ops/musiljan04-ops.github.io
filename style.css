@@ -278,7 +278,7 @@ section {
 }
 
 .projects {
-  background: var(--second-bg-color);
+  background: var(--bg-color);
 }
 
 .projects h2 {
@@ -336,7 +336,7 @@ section {
 }
 
 .contact {
-  background-color: var(--bg-color);
+  background-color: var(--second-bg-color);
 }
 
 .contact h2 {
@@ -456,11 +456,6 @@ section {
   html {
     font-size: 55%;
   }
-  .projects-container {
-    padding-bottom: 7rem;
-    grid-template-columns: repeat(1, 1fr);
-    margin: 0 5rem;
-  }
 }
 @media (max-width: 991px) {
   header {
@@ -506,6 +501,11 @@ section {
     font-size: 2rem;
     margin: 3rem 0;
   }
+  section {
+    padding: 5rem 3% 2rem;
+    min-height: 50vh;
+  }
+
   .home {
     flex-direction: column-reverse;
     margin: 5rem 4rem;
@@ -531,7 +531,7 @@ section {
     margin-top: 4rem;
   }
   .about {
-    flex-direction: column-reverse;
+    flex-direction: column;
   }
   .about-rectangle {
     display: none;
@@ -540,16 +540,21 @@ section {
     margin: 1rem 4rem;
   }
   .about-img {
-    border: none;
+    display: none;
   }
   .about img {
-    width: 70vw;
+    width: 60vw;
     margin-top: 1rem;
     border: none;
     margin-bottom: 3rem;
   }
   .services h2 {
     margin-bottom: 3rem;
+  }
+  .projects-container {
+    padding-bottom: 7rem;
+    grid-template-columns: repeat(2, 1fr);
+    margin: 0 5rem;
   }
   .projects h2 {
     margin-bottom: 3rem;
